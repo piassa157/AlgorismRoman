@@ -7,4 +7,5 @@ import lombok.Setter;
 @Setter
 public class RomanPostDTO {
     private String algorism;
+    private int algorismValue;
 }

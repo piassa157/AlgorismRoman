@@ -8,4 +8,12 @@ import lombok.Setter;
 public class RomanDTO {
     private String algorism;
     private int algorismValue;
+
+    public RomanDTO() {
+    }
+
+    public RomanDTO(String algorism, int algorismValue) {
+        this.algorism = algorism;
+        this.algorismValue = algorismValue;
+    }
 }
